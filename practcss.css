@@ -20,8 +20,11 @@
   font-weight: 500;
   font-style: normal;
 }
+body {
+  width: 1080px;
+}
 .blocks {
-  margin: 50px 230px;
+  margin: 50px 0 0 230px;
   width: 1140px;
   height: 296px;
 }
@@ -137,4 +140,181 @@ nav {
 }
 .user {
   margin-top: 27px;
+}
+.main_brands {
+  display: flex;
+  flex-direction: row;
+  margin: 54px 0 0 220px;
+}
+.left_inf {
+  margin: 75px 50px 0 10px;
+}
+.p_brands {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: 0.6;
+  margin-bottom: 3px;
+}
+.h1_brands {
+  margin: 0;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 73px;
+  width: 517px;
+}
+.bg_h1 {
+  background: #66bfff;
+  color: #247cc0;
+}
+.p_about {
+  width: 515px;
+  height: 54px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #030d15;
+  opacity: 0.6;
+}
+.price_brands {
+  display: flex;
+  flex-direction: row;
+}
+.shop {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: 0;
+  color: #fff;
+  background: #247cc0;
+  width: 151px;
+  height: 58px;
+  margin-right: 31px;
+}
+.price {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #030d15;
+  margin-right: 18px;
+}
+.prev_price {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #030d15;
+  opacity: 0.5;
+  padding-top: 4px;
+}
+.companies {
+  padding-left: 118px;
+  width: 1100px;
+  height: 237px;
+  margin: -37px 0 0 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 84px;
+  background: #ffffff;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  margin: 110px 0 0 230px;
+  height: 270px;
+  width: 1133px;
+}
+.circle_basket {
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #f3f3f3;
+  border-radius: 22px;
+  padding: 13px 12px 12px 10px;
+  background-color: #ffffff;
+  margin: -275px 0 0 238px;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 37px;
+}
+.headphone {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.inf_product {
+  margin-top: 30px;
+}
+.product_name {
+  margin: 0;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030d15;
+}
+.product_def {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030d15;
+  opacity: 0.6;
+  margin: 9px 0 20px 0;
+}
+.small_price {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.product_pr {
+  margin: 0;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #030d15;
+}
+.product_prevpr {
+  margin: 0;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #030d15;
+  opacity: 0.5;
+}
+.del {
+  text-decoration-line: line-through;
+}
+.mark_img {
+  margin-top: 15px;
 }
