@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: -298px 0 0 585px;
+  margin: -298px 0 0 628px;
   width: 555px;
   height: 296px;
   background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
@@ -85,4 +85,56 @@
   color: #f4f9fc;
   background: transparent;
   margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  padding-left: 230px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  padding-top: 33px;
+}
+.arrowh {
+  width: 20px;
+  height: 7px;
+  padding-top: 7px;
+}
+.navbar {
+  margin: 0;
+  white-space: pre;
+  text-transform: uppercase;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #030d15;
+}
+.logo {
+  margin: 32px 177px 32px 0;
+}
+.log_in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 27px;
+  margin-left: 117px;
+}
+.search {
+  padding-top: 37px;
+}
+.basket {
+  margin-top: 32px;
+}
+.user {
+  margin-top: 27px;
 }
