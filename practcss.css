@@ -239,7 +239,7 @@ nav {
 .products {
   display: flex;
   flex-direction: row;
-  margin: 110px 0 0 230px;
+  margin: 110px 0 160px 230px;
   height: 270px;
   width: 1133px;
 }
@@ -250,7 +250,7 @@ nav {
   border: 2px solid #f3f3f3;
   border-radius: 22px;
   padding: 13px 12px 12px 10px;
-  background-color: #ffffff;
+  background: #ffffff;
   margin: -275px 0 0 238px;
 }
 .column {
