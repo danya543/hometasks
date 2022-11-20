@@ -20,6 +20,10 @@
   font-weight: 500;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   width: 1080px;
 }
@@ -317,4 +321,71 @@ nav {
 }
 .mark_img {
   margin-top: 15px;
+}
+.about_product {
+  display: flex;
+  flex-direction: row;
+  margin: 46px 0 0 135pxs;
+}
+.inf_about {
+  margin: 110px 0 0 130px;
+  width: 460px;
+}
+.abouth1 {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 71px;
+  color: #030d15;
+  white-space: nowrap;
+}
+.aboutp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 168px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #030d15;
+  opacity: 0.6;
+  width: 470px;
+  margin-bottom: 40px;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  color: #030d15;
+  width: 401px;
+  margin-bottom: 20px;
+}
+.check_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #247cc0;
+  margin-right: 13px;
+}
+.check_circle1 {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 18px;
+  border-radius: 9px;
+  background: #247cc0;
+  margin: 5px 13px 0 0;
 }
