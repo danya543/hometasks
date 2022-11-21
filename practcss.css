@@ -192,8 +192,10 @@ nav {
 .price_brands {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-top: 36px;
 }
-.shop {
+.shop_now {
   font-family: "Hind Siliguri";
   font-style: normal;
   font-weight: 600;
@@ -325,7 +327,7 @@ nav {
 .about_product {
   display: flex;
   flex-direction: row;
-  margin: 46px 0 0 135pxs;
+  margin: 46px 0 0 135px;
 }
 .inf_about {
   margin: 110px 0 0 130px;
@@ -339,6 +341,7 @@ nav {
   line-height: 71px;
   color: #030d15;
   white-space: nowrap;
+  width: 640px;
 }
 .aboutp {
   display: flex;
@@ -354,6 +357,7 @@ nav {
   opacity: 0.6;
   width: 470px;
   margin-bottom: 40px;
+  margin-top: 115px;
 }
 .check {
   display: flex;
@@ -388,4 +392,164 @@ nav {
   border-radius: 9px;
   background: #247cc0;
   margin: 5px 13px 0 0;
+}
+.center {
+  margin: 124px 0 0 633px;
+  text-align: center;
+}
+.navigationbar {
+  margin: 22px 0 0 555px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #030d15;
+  opacity: 0.6;
+}
+.hovp:hover {
+  color: red;
+}
+.popular_products {
+  width: 1140px;
+  margin: 50px 0 0 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.pop_product {
+  box-sizing: border-box;
+  width: 360px;
+  height: 503px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sell {
+  margin: 35px 0 0 33px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #030d15;
+}
+.popname {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030d15;
+  margin-left: 35px;
+}
+.under {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 78px;
+}
+.colors {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#margin {
+  margin: 0;
+}
+.inform {
+  margin-left: 35px;
+}
+.grey {
+  width: 14px;
+  height: 14px;
+  background-color: #c3d7e6;
+  border-radius: 7px;
+}
+.black {
+  width: 14px;
+  height: 14px;
+  background-color: #15151d;
+  border-radius: 7px;
+}
+.blue {
+  width: 14px;
+  height: 14px;
+  background-color: #2f80ed;
+  border-radius: 7px;
+}
+.colorhov:hover {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 15px;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+.mouse {
+  margin-left: 37px;
+}
+.smallcol {
+  margin: 12px 59px 34px 59px;
+}
+.keyboard {
+  margin: 50px 48px 88px 48px;
+}
+.macbook {
+  margin: 0 17px 3px 17px;
+}
+.headpop {
+  margin: 0 42px 54px 43px;
+}
+.kopter {
+  margin: 49px 47px 76px 47px;
+}
+#marg {
+  margin-left: 280px;
+}
+.shop {
+  width: 1140px;
+  height: 1014px;
+  margin: 130px 230px;
+}
+.shop_head {
+  margin-left: 250px;
+}
+.shop_p {
+  margin-left: 92px;
+  height: 48px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #030d15;
+  opacity: 0.6;
+  width: 457px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  width: 1140px;
+}
+.col_el {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 816px;
+}
+.element {
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
