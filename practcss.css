@@ -553,3 +553,123 @@ nav {
 .element {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.user_contact {
+  margin: 100px 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1140px;
+  align-items: center;
+}
+.contact_inf {
+  width: 360px;
+  height: 110px;
+}
+.conth1 {
+  width: 345px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030d15;
+  margin-bottom: 8px;
+}
+.contp {
+  width: 360px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030d15;
+  opacity: 0.6;
+}
+.contact_in {
+  width: 460px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.cont_input {
+  box-sizing: border-box;
+  margin: 0;
+  width: 335px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.input_button {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  margin: 0;
+  background: #247cc0;
+  color: #fff;
+  width: 122px;
+  height: 50px;
+  border: 0;
+  text-transform: uppercase;
+}
+footer {
+  width: 1600px;
+  height: 396px;
+  background: #030d15;
+}
+.foot_inform {
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Hind Siliguri";
+  color: #ffffff;
+  margin-left: 230px;
+}
+.footh1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.footer_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  opacity: 0.6;
+}
+.width {
+  width: 260px;
+}
+.footlogo {
+  width: 297px;
+  height: 158px;
+  margin: 80px 32px 139px 0;
+}
+.foot_inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 265px;
+  width: 165px;
+  gap: 15px;
+  margin: 75px 31px 0 0;
+}
+.about_store {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 265px;
+  width: 165px;
+  gap: 15px;
+  margin-top: 75px;
+}
+
+.socials {
+  margin-bottom: 26px;
+}
